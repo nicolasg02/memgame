@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/memgame/static/js/main.9cbd5720.chunk.js",
+    "main.js.map": "/memgame/static/js/main.9cbd5720.chunk.js.map",
+    "runtime-main.js": "/memgame/static/js/runtime-main.44012c9e.js",
+    "runtime-main.js.map": "/memgame/static/js/runtime-main.44012c9e.js.map",
+    "static/js/2.f174a559.chunk.js": "/memgame/static/js/2.f174a559.chunk.js",
+    "static/js/2.f174a559.chunk.js.map": "/memgame/static/js/2.f174a559.chunk.js.map",
+    "index.html": "/memgame/index.html",
+    "static/js/2.f174a559.chunk.js.LICENSE.txt": "/memgame/static/js/2.f174a559.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44012c9e.js",
+    "static/js/2.f174a559.chunk.js",
+    "static/js/main.9cbd5720.chunk.js"
+  ]
+}
