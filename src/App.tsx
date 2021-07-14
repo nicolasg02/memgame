@@ -71,15 +71,17 @@ function App() {
     }
   };
 
-  const handlePlayAgain = (e: any) => {
+  const handlePlayAgain = (event: React.MouseEvent<HTMLButtonElement>) => {
+    const target = event.target as HTMLElement;
+
     setScore(0);
     setCardsClicked([]);
 
-    if (e.target.id === "game-over") {
+    if (target.id === "game-over") {
       setGameOver(false);
     }
 
-    if (e.target.id === "game-won") {
+    if (target.id === "game-won") {
       setGameWon(false);
       setBestScore(0);
     }
