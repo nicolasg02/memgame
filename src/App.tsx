@@ -59,7 +59,10 @@ function App() {
     // check if card was already clicked
     if (cardsClicked.includes(target.id)) {
       setGameOver(true);
-      setBestScore(score);
+
+      if (bestScore < score) {
+        setBestScore(score);
+      }
     } else {
       setScore(score + 1);
 
