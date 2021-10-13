@@ -2,6 +2,8 @@
 
 Memory game with cards from 'Demon Slayer'.
 
+[Live Preview](https://memgame-theta.vercel.app/)
+
 ## Tools used
 
 - React
