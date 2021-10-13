@@ -1,50 +1,17 @@
-import styled from "styled-components";
-
-const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 8rem;
-
-  h2 {
-    font-size: 2.5rem;
-  }
-
-  div {
-    display: flex;
-    justify-content: space-between;
-    width: 16rem;
-
-    h4 {
-      font-size: 1.2rem;
-    }
-  }
-`;
-
-interface IProps {
-  score: number;
-  highestScore: number;
-  bestScore: number;
+function Header() {
+  return (
+    <div className="py-10 md:py-20 flex flex-col items-center space-y-5 md:space-y-10">
+      <h1 className="text-4xl md:text-5xl">Memory Card Game</h1>
+      <div className="flex space-x-5 md:space-x-10">
+        <p className="text-lg md:text-xl">
+          Score: <span className="font-bold">0</span>
+        </p>
+        <p className="text-lg md:text-xl">
+          Best Score: <span className="font-bold">0</span>
+        </p>
+      </div>
+    </div>
+  )
 }
 
-const Header = ({ score, bestScore, highestScore }: IProps) => {
-  return (
-    <Wrapper>
-      <h2>Memgame</h2>
-      <div>
-        <h4>
-          Score: <span>{score}</span>
-        </h4>
-        <h4>
-          Best Score:{" "}
-          <span>
-            {bestScore}/{highestScore}
-          </span>
-        </h4>
-      </div>
-    </Wrapper>
-  );
-};
-
-export default Header;
+export default Header
